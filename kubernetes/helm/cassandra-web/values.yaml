@@ -8,6 +8,8 @@ replicaCount: 1
 db:
   host: scylla
   port: 9042
+  username: ""
+  password: ""
 
 image:
   repository: ipushc/cassandra-web
